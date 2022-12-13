@@ -1,0 +1,845 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans+Georgian:wght@100;200;300;400;500;600;700;800;900&family=Noto+Serif+Georgian:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.container{
+    position: relative;
+    background-image: url("https://duruthemes.com/demo/html/cappa/demo1/img/slider/2.jpg ");
+
+    width:100%;
+    height: 100vh;
+    /* background-attachment: ; */
+  background-position: center;
+   background-size: cover;
+}
+
+.first-page{
+    width: 100%;
+    height: 55vh;
+    
+}
+
+.nav-bar{
+    position: sticky;
+    top: 0;
+    /* z-index: 200000; */
+    display: flex;
+    /* justify-content: space-around; */
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 90px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: #fff;
+    z-index: 70;
+    
+    
+}
+
+.ul-nav ul {
+    display: flex;
+    color: antiquewhite;
+     margin-top: 40px;   
+     /* margin-right: 240px; */
+}
+.logo{
+   
+    margin: 30px 230px;
+}
+.logo img{
+    width: 160px;
+    height: 38px;
+}
+
+
+
+.ul-nav ul  li{
+    list-style: none;
+    padding: 0 15px;
+
+}
+.ul-nav ul  li:hover{
+
+    color:#AA8453;
+    cursor: pointer;
+}
+.ul-nav ul  a:hover{
+
+    color:#AA8453;
+
+}
+a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.fa-bars{
+    font-size: 20px;
+    display: none;
+}
+
+
+.tel{
+position: sticky;
+width: 250px;
+height: 100px;
+transform: rotate(-90deg);
+z-index: 0;
+margin: 250px 0 0 -30px;
+display: flex;
+
+
+}
+
+
+.fa-phone-volume{
+    margin-right:19px;
+    margin-top: 25px;
+    font-size: 35px;
+    color: #fff;
+
+
+}
+
+
+.tell{
+    display: flex;
+align-items: center;
+flex-direction:  column;
+
+}
+
+.tel-num{
+    font-family: 'Gilda Display', serif;
+    font-size: 24px;
+    color: #aa8453;
+    letter-spacing: 1px;
+    margin-bottom: -25px;
+}
+
+.reserv{
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 400;
+    letter-spacing: 5px;
+    font-size: 12px;
+    line-height: 1.75em;
+    margin-bottom:1px;
+    margin-top: 20px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: -230px;
+    
+}
+
+.stars
+{
+    font-family: 'Barlow Condensed', sans-serif;
+     color:#AA8453;
+    font-size: 15px;
+}
+
+.fa-star{
+    padding-right: 10px;
+}
+.hotel-best{
+    font-family: 'Barlow Condensed', serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+
+.enjoy{
+    position: relative;
+    margin-bottom: 20px;
+    font-family: 'Gilda Display', serif;
+    font-size: 55px;
+    text-transform: uppercase;
+    line-height: 1.35em;
+    -webkit-animation-delay: .6s;
+    animation-delay: .6s;
+    color: #fff;
+    font-weight: 400;
+    letter-spacing: 15px;
+}
+
+
+
+.room-btn{
+    margin-left: 660px;
+   width: 180px;
+    font-weight: 500;
+    font-family: 'Barlow Condensed', sans-serif;
+    text-transform: uppercase;
+    background: transparent;
+    color: #fff;
+    padding: 12px 20px;
+    letter-spacing: 3px;
+    border: 1px solid rgba(255,255,255,0.5);
+}
+
+.room-btn:hover{
+    background-color: #fff;
+    transition: 0.5s;
+    color: black;
+}
+
+
+
+
+.check{
+    width: 65%;
+    /* position: absolute; */
+    margin: auto;
+    background-color: #fff;
+    margin-top: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.chec-kbox{
+    padding: 15px 35px;
+    box-shadow: none;
+    font-size: 15px;
+    color: #222;
+    text-align: center;
+}
+
+.check-btn{
+    background-color: #AA8453;
+    padding:10px 38.3px;
+    border: none;
+    color: #fff;
+}
+
+.check-btn:hover{
+    background-color: #222;
+    transition: 0s;
+}
+
+.second-page{
+    margin-top: 160px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+}
+
+.article{
+    width: 35%;
+}
+
+.ta-cha{
+    width: 30%;
+    box-sizing: border-box;
+    display: flex;
+
+}
+.tab img{
+    width: 230px;
+    height: 330px;
+    margin-top: 100px;
+    margin-left: 15px;
+}
+
+.cha img{
+    width: 230px;
+    height: 330px;
+    margin-left: 30px;
+}
+
+.stars-2{
+    color: #bc8742;
+    margin-bottom: 5px;
+   
+}
+
+.cappa-lux{
+    font-size: 15px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 400;
+    color: #666;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    margin-bottom: 5px;
+}
+
+
+.enjoy-2{
+    font-size: 45px;
+    font-family: 'Gilda Display', serif;
+    font-weight: 400;
+    color: #222;
+    position: relative;
+    margin-bottom: 20px;
+    line-height: 1.25em;
+}
+
+p{
+    font-family: 'Barlow', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.75em;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+
+.reserv-2{
+    font-size: 12px;
+    font-family: 'Barlow', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.75em;
+    color: #666;
+    margin-bottom: -6px;
+}
+
+.tel-num-2{
+    font-size: 24px;
+    color: #8e6d45;
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 1px;
+}
+
+
+.tel-2{
+    display: flex;
+    align-items: center;
+}
+
+
+.fa-phone{
+    font-size: 35px;
+    margin-right: 20px;
+    color: #8e6d45;
+
+}
+
+.suit{
+    display: flex;
+    flex-wrap: wrap;
+    
+    width: 100%;
+    background-color: rgba(177, 175, 175, 0.138);
+    overflow: hidden;
+}
+
+
+.the-cap{
+    font-size: 15px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 400;
+    color: #666;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    margin-bottom: 5px;
+}
+
+.text-the{
+    margin-left: 90px;
+}
+
+.rom-sut{
+    font-size: 45px;
+    font-family: 'Gilda Display', serif;
+    font-weight: 400;
+    color: #222;
+    position: relative;
+    margin-bottom: 20px;
+    line-height: 1.25em;
+}
+
+
+.room-suit-phot
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    overflow: hidden;
+}
+
+.junior-suit, .family-room, .double-room{
+    width: 30%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+
+.junior-suit img{
+    width: 100%;
+}
+
+.family-room img
+{
+    width: 100%;
+    
+}
+
+.double-room img
+{
+    width: 100%;
+    
+}
+
+.deluxe-room, .superior-room{
+ width: 45%;
+  padding: 20px;
+
+}
+
+.deluxe-room img{
+    width: 100%;
+}
+.superior-room img{
+width: 100%;
+}
+
+.photo50{
+    overflow: hidden;
+}
+.photo50 {
+    position: relative;
+    /* transform: scale(1); */
+    transition: .5s ease-in-out;
+}
+.photo50:hover {
+
+    opacity: 0.5 col;
+    transform: scale(1.1);
+}
+
+.n150{
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    
+}
+.night{
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Barlow Condensed', sans-serif;
+    display: inline;
+    letter-spacing: 3px;
+}
+.text-name{
+    position: relative;
+    color: #fff;
+    font-size: 27px;
+    font-weight: 400;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+.th4-page{
+    margin-top: 50px;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-items: center; */
+    background-color: #222;
+    padding-top: 100px;
+
+}
+
+.text-th4, .cle, .dir {
+    width: 25%;
+    padding: 20px;
+
+}
+
+ .cle img, .dir img{
+    width: 100%;
+ }
+
+.prices{
+    font-size: 15px;
+    color:#AA8453;
+    font-size: 15px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    position: relative;
+    letter-spacing: 6px;
+}
+
+.extra-ser{
+    font-size: 45px;
+    font-family: 'Gilda Display', serif;
+    font-weight: 400;
+    color: #fff;
+    position: relative;
+    margin-bottom: 20px;
+    line-height: 1.25em;
+}
+
+.extra-p{
+    color: ADADAD;
+    font-size: 15px;
+}
+
+.month50{
+    margin-top: -10px;
+    background-color: #fff;
+    width: 100%;
+    height: 290px;
+}
+
+
+.romm-cle{
+    padding: 30px 0 0 30px;
+    line-height: 1;
+    margin: 0;
+    font-family: 'Gilda Display', serif;
+    font-size: 24px;
+    color: #222;
+    margin-bottom: 20px
+}
+
+.fa-check{
+    color:#aa8453 ;
+}
+.moon50{
+    padding-left: 30px;
+    line-height: 1;
+    font-family: 'Gilda Display', serif;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #aa8453;
+}
+
+
+.orci{
+    font-size: 15px;
+    margin-left: 30px;
+    color: #666;
+
+}
+
+
+.our-ser{
+    width: 100%;
+    height: 100vh;
+    margin-top: 50px;
+}
+
+.pick-up{
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.text-th1{
+margin-left: 180px;
+}
+
+
+.pick-box{
+    width: 24%;
+    height: 200px;
+    border: 1px solid rgb(165, 165, 165);
+    padding: 20px;
+    margin: 10px;
+    
+}
+
+.pick-p{
+    font-family: 'Barlow', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.75em;
+    color: #666;
+    margin-bottom: 20px
+}
+
+.pick-h{
+    font-size: 24px;
+    color: #222;
+    font-family: 'Gilda Display', serif;
+    font-weight: 400;
+    line-height: 1.25em;
+    margin: 0 0 20px 0;
+    color: #222;
+}
+
+
+.fa-earth-americas, .fa-car, .fa-bed, .fa-person-swimming, .fa-wifi, .fa-mug-saucer{
+    color: #8e6d45;
+    font-size: 40px;
+}
+
+
+.footer{
+    width: 100%;
+    height: 70vh;
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+
+    flex-wrap: wrap;
+    color: #fff;
+
+}
+
+.about-hotel{
+    margin: 100px  50px;
+    width: 20%;
+    color: #fff;
+
+    
+}
+
+.title-hotel{
+    font-size: 24px;
+    font-family: 'Gilda Display', serif;
+    font-weight: 400;
+    line-height: 1.25em;
+    margin: 0 0 20px 0;
+    color: #fff;
+
+}
+
+.english{
+    margin-top: 50px;
+    width: 160px;
+    height: 50px;
+    background-color: #282828;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.copy{
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+@media(max-width:768px) 
+
+{
+
+    .container{
+
+        width: 100%;
+    }
+
+    .first-page{
+        position: relative;
+       
+        width: 100%;
+    } 
+
+    .ul-nav   
+    {
+       display: none;
+    }
+  .logo img{
+    /* width: 100%; */
+    box-sizing: border-box;
+    /* display: inline; */
+    position: absolute;
+    top: 30;
+    left:20px;
+    color:black ;
+   
+  }
+.fa-bars{
+    display: block;
+    position: absolute;
+    top: 35px;
+    right: 25px;
+ }
+
+ .nav-bar{
+    position: sticky;
+    top: 0;
+    display: flex;
+    z-index: 200000;
+}
+
+.tel{
+    display: none;
+}
+.main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 250px auto;
+
+}
+
+.enjoy{
+    position: relative;
+    margin-bottom: 80px;
+    font-family: 'Gilda Display', serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    line-height: 1.35em;
+    -webkit-animation-delay: .6s;
+    animation-delay: .6s;
+    color: #fff;
+    font-weight: 400;
+    letter-spacing: 10px;
+}
+
+.room-btn{
+    margin-left: 90px;
+   width: 190px;
+   font-size: 18px;
+    font-weight: 500;
+    font-family: 'Barlow Condensed', sans-serif;
+    text-transform: uppercase;
+    background: transparent;
+    color: #fff;
+    padding: 18px 20px;
+    letter-spacing: 3px;
+    border: 1px solid rgba(255,255,255,0.5);
+}
+
+.check{
+    height: 50vh;
+    width: 100%;
+}
+.chec-kbox{
+    width: 90%;
+    height: 60px;
+    margin-top: -20px;   
+   box-shadow: none;
+    font-size: 20px;
+    color: #222;
+    text-align: center;
+}
+
+
+.check-btn{
+    /* position: absolute; */
+    /* background-color: #AA8453; */
+    /* padding:440px 0 -150px 0; */
+    border: none;
+    color: #fff;
+}
+
+.second-page{
+    margin-top: 630px;
+    width: 100%;
+    padding: 0 10px 0 20px;
+}
+
+.article{
+    width: 100%;
+}
+
+.ta-cha {
+display: flex;
+align-items: center;
+width: 100%;
+box-sizing: border-box;
+}
+.tab img{
+    width: 160px;
+    height: 240px;
+}
+.cha img{
+    width: 160px;
+    height: 240px;
+}
+
+.suit{
+    margin-top: 50px;
+    width: 100%;
+}
+
+.the-cap{
+    width: 100%;
+}
+
+.text-the{
+    margin-left: 30px;
+}
+.photo50
+{    width: 100%;
+}
+
+.text-th4, .cle, .dir {
+    width: 100%;
+    padding: 20px;
+
+}
+
+.pick-box{
+    width: 90%;
+}
+.our-ser{
+
+    margin-top: 850px;
+}
+
+.text-th1{
+    margin-left: 30px;
+}
+
+
+.about-hotel{
+margin-top: 0;
+width: 100%;
+}
+.foot-exp{
+    margin-top: 1px;
+}
+.title-hotel2{
+    margin-top: 80px;
+}
+
+.footer{
+    margin-top: 800px;
+    height: 150vh;
+}
+
+}
